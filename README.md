@@ -82,7 +82,7 @@ The dataset required extensive cleaning, including:
 ---
 
 ## 📊 Dashboard Insights
-![Dashboard](dashboard.png)
+![Dashboard](Full Data Dashboard.png)
 
 
 Key Insights:
