@@ -1,63 +1,113 @@
-# Data Profession Dashboard 2022
+# 📊 Data Analyst Salary Data Cleaning & Analysis
 
-## Table of Contents
+## 📚 Table of Contents
 - [Overview](#overview)
-- [Dataset](#dataset)
-- [Data Cleaning Process](#data-cleaning-process)
-- [Analysis and Insights](#analysis-and-insights)
-- [Dashboard](#dashboard)
+- [Problem Statement](#problem-statement)
+- [Objectives](#objectives)
+- [Dataset Details](#dataset-details)
+- [Repository Structure](#repository-structure)
+- [Tools Used](#tools-used)
 - [How to Use This Repository](#how-to-use-this-repository)
-- [Author](#author)
-
-## Overview
-
-This project analyzes data profession trends, focusing on job titles, industries, salary distributions, gender representation, education levels, and remote work preferences. The dataset consists of **285 survey respondents** and provides insights into key aspects of the data profession.
-
-## Data Cleaning Process
-
-The raw dataset required extensive cleaning before analysis. The following steps were performed:
-
-1. **Standardized Job Titles** – Removed inconsistencies, merged similar titles, and categorized them appropriately.
-2. **Industry Classification** – Ensured all job titles were assigned to a relevant industry, reducing the number of "Other" and "Unknown" values.
-3. **Salary Formatting** – Converted salary ranges to numerical values, removed "k" from the dataset, and calculated the average salary per row.
-4. **Handled Missing Values** – Investigated and reassigned missing industry data where possible.
-5. **Ranked Industry Salaries** – Created a ranking system to determine the top-paying industries.
-6. **Validated Data Integrity** – Cross-checked the cleaned data to ensure accuracy and consistency.
-
-## Key Metrics & Insights
-
-- **Most Common Job Title:** Data Analyst (211 respondents)
-- **Highest-Paying Industry:** Healthcare (\$116K average salary)
-- **Gender Representation:** Almost equal split between male and female respondents.
-- **Preferred Education Level:** Bachelor's degree is the most common (153 respondents).
-- **Remote Work vs Salary:** 51% of respondents prefer a better salary over remote work.
-- **Python Usage:** 70% of respondents reported using Python.
-
-## Dashboard Design
-
-The dashboard was built using **Excel**, incorporating:
-
-- **KPI Cards** to highlight overall statistics.
-- **Bar Charts** for job title count, industry salary comparisons, and education levels.
-- **Radar Chart** to visualize salary vs remote work preferences.
-- **Pie Chart** for gender-based salary distribution.
-
-## Next Steps
-
-1. Share insights on **GitHub & LinkedIn** to showcase analytical skills.
-2. Use this dataset for deeper statistical analysis with **SQL or Power BI**.
-3. Explore **predictive modeling** on salaries based on job titles and industries.
-
-## Repository Contents
-
-- **Raw Data:** Original dataset (cleaned version included).
-- **Dashboard Screenshot:** Visual representation of insights.
-- **Excel File:** Contains the cleaned data, analysis, and dashboard.
-- **README (this file):** Documentation of the project workflow.
+- [Results](#results)
+- [Future Work](#future-work)
+- [Contributors](#contributors)
 
 ---
 
-### Author: Vanny
+## 📌 Overview
+This project focuses on cleaning and analyzing a dataset containing salary information for data analysts. The dataset includes job titles, industries, salary ranges, and other relevant details. The goal is to clean, structure, and analyze the data using Microsoft Excel.
 
+---
 
+## 🚨 Problem Statement
+The dataset had several issues, including:
+- **Missing values** in key columns
+- **Inconsistent job titles** (e.g., different variations of "Data Analyst")
+- **Industry misclassification** (e.g., "Other" category being too broad)
+- **Salary range formatting** (e.g., "106k-125k" needed to be converted into numerical values)
 
+These issues made it difficult to extract meaningful insights about salary trends across different industries and job titles.
+
+---
+
+## 🎯 Objectives
+### 1️⃣ Data Cleaning
+- Remove duplicate entries
+- Standardize job titles and industry categories
+- Convert salary ranges into numerical values and compute average salary
+
+### 2️⃣ Data Analysis
+- Identify the **top-paying industries**
+- Analyze the **most common job titles**
+- Examine salary trends across industries
+
+### 3️⃣ Dashboard Creation
+- Visualize key insights using **Excel Dashboards**
+
+---
+
+## 📊 Dataset Details
+| Column Name          | Description |
+|----------------------|-------------|
+| Job Title           | Title of the data-related job |
+| Industry            | Industry the job falls under |
+| Salary Range        | Salary range in text format (e.g., "41k-65k") |
+| Average Salary (USD) | Converted numerical average of salary range |
+
+---
+
+## 📁 Repository Structure
+```
+Salary-Data-Analysis/
+│── data/
+│   ├── raw_data.xlsx      # Original dataset
+│   ├── cleaned_data.xlsx  # Cleaned dataset
+│
+│── documentation/
+│   ├── data_cleaning_steps.docx  # Step-by-step cleaning process
+│
+│── visuals/
+│   ├── dashboard.png  # Screenshot of the final dashboard
+│
+│── README.md  # Project documentation
+```
+
+---
+
+## 🛠️ Tools Used
+- **Microsoft Excel** – Data cleaning, analysis, and visualization
+- **GitHub** – Version control and documentation
+
+---
+
+## 📖 How to Use This Repository
+1. **Download or Clone** the repository:
+   ```bash
+   git clone https://github.com/yourusername/salary-data-analysis.git
+   ```
+2. Open the `data/` folder to access the raw and cleaned datasets.
+3. Check the `documentation/` folder for detailed data cleaning steps.
+4. Open `visuals/dashboard.png` to see the final dashboard.
+
+---
+
+## 📊 Results
+- The **top-paying industry** was `XYZ Industry` with an average salary of `$XYZk`.
+- **Most common job title** was `Data Analyst`, making up `XX%` of all roles.
+- The **"Other" industry issue** was resolved by reclassifying jobs correctly.
+
+---
+
+## 🚀 Future Work
+- Expand dataset with more job postings for a **larger sample size**.
+- Perform advanced **statistical analysis** using SQL or Python.
+- Create an **interactive Power BI dashboard** for deeper insights.
+
+---
+
+## 💡 Contributors
+- **Vanesa Gate** – Data Analyst
+
+---
+
+![Dashboard Preview](visuals/dashboard.png)
