@@ -1,5 +1,14 @@
 # Data Profession Dashboard 2022
 
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Data Cleaning Process](#data-cleaning-process)
+- [Analysis and Insights](#analysis-and-insights)
+- [Dashboard](#dashboard)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Author](#author)
+
 ## Overview
 
 This project analyzes data profession trends, focusing on job titles, industries, salary distributions, gender representation, education levels, and remote work preferences. The dataset consists of **285 survey respondents** and provides insights into key aspects of the data profession.
