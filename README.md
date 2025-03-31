@@ -82,7 +82,7 @@ The dataset required extensive cleaning, including:
 ---
 
 ## 📊 Dashboard Insights
-![Dashboard]([Full Data Dashboard_Enhanced.png](https://github.com/nesagate/Profession-Data-Analysis-Project/blob/main/Visuals/Full_Data_Dashboard_Enhanced.png)
+[Dashboard][Full Data Dashboard_Enhanced.png](https://github.com/nesagate/Profession-Data-Analysis-Project/blob/main/Visuals/Full_Data_Dashboard_Enhanced.png)
 
 Key Insights:
 - **Data Analysts dominate** the survey, making up 74% of respondents.
