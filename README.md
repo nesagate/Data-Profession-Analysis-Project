@@ -1,73 +1,124 @@
-# Data Analyst Job Market Analysis
+# 📊 Data Profession Dashboard 2022
 
-## 📚 Table of Contents
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Objectives](#objectives)
-- [Dataset Details](#dataset-details)
-- [Repository Structure](#repository-structure)
-- [Tools Used](#tools-used)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Results](#results)
-- [Future Work](#future-work)
-- [Contributors](#contributors)
+## 🚀 Overview
+This project analyzes survey data on data professionals, providing insights into job roles, salaries, industries, and education levels. The dashboard visualizes key trends and statistics to help understand the data job market better.
 
-## 📌 Overview
-This project explores and analyzes data analyst job market trends, including job titles, industries, and salaries. The dataset consists of real-world job postings, which were cleaned and structured to extract meaningful insights.
+---
 
-## 🚨 Problem Statement
-The data analyst job market is diverse, spanning multiple industries with varying salaries and job titles. However, job seekers often struggle to understand salary expectations, industry demand, and career trends. This project aims to clean, analyze, and visualize job market data to provide actionable insights.
+## 📑 Table of Contents
+1. [Problem Statement](#-problem-statement)
+2. [Objectives](#-objectives)
+3. [Dataset Overview](#-dataset-overview)
+4. [Data Cleaning Process](#-data-cleaning-process)
+5. [Key Metrics & Analysis](#-key-metrics--analysis)
+6. [Dashboard Insights](#-dashboard-insights)
+7. [Next Steps](#-next-steps)
+8. [Tech Stack Used](#-tech-stack-used)
+9. [How to Use](#-how-to-use)
+10. [Conclusions](#-conclusions)
+
+---
+
+## ❓ Problem Statement
+The goal of this project is to analyze survey data from data professionals and uncover trends related to job roles, salaries, industries, education levels, and preferred work conditions. The findings will help job seekers and hiring managers understand the current data job market.
+
+---
 
 ## 🎯 Objectives
-1. **Clean and Organize Data:**
-   - Standardize job titles
-   - Categorize industries properly
-   - Fix salary ranges and calculate averages
-   
-2. **Analyze Industry and Salary Trends:**
-   - Identify top-paying industries
-   - Determine the most common job titles
-   - Highlight trends in job postings
-   
-3. **Visualize Key Findings:**
-   - Create a dashboard to display insights
-   - Develop interactive charts for industry and salary trends
+- Identify the most common job titles in the data profession.
+- Analyze salary distribution across different industries.
+- Determine the most popular education levels among data professionals.
+- Assess job satisfaction and remote work preferences.
+- Create an interactive dashboard for easy data exploration.
 
-## 📊 Dataset Details
-| Column Name         | Description                                    |
-|---------------------|------------------------------------------------|
-| Job Title          | Title of the job posting                        |
-| Industry          | Industry category for the job                   |
-| Salary Range      | Salary range provided in the job posting        |
-| Average Salary    | Computed average salary for each job            |
+---
 
-## 📁 Repository Structure
-```
-Data-Analyst-Job-Market-Analysis/
-├── data/                # Raw and cleaned datasets
-├── documentation/       # Data cleaning steps and methodology
-├── visuals/             # Charts and dashboard images
-└── README.md            # Project documentation
-```
+## 📂 Dataset Overview
+The dataset consists of **285 survey responses** from data professionals worldwide. The data includes:
+- Job Titles
+- Industry
+- Salary Ranges
+- Education Levels
+- Gender Distribution
+- Work Preferences
 
-## 🛠️ Tools Used
-- **Microsoft Excel** – For data cleaning, analysis, and visualization
+---
 
-## 📖 How to Use This Repository
-1. **Download or clone this repository** to your local machine.
-2. **Explore the dataset** in the `data/` folder.
-3. **Review the documentation** in the `documentation/` folder for data cleaning details.
-4. **Check out the visualizations** in the `visuals/` folder for insights from the data.
+## 🛠 Data Cleaning Process
+The dataset required extensive cleaning, including:
+1. **Standardized Job Titles** – Removed inconsistencies, merged similar titles, and categorized them appropriately.
+2. **Industry Classification** – Ensured all job titles were assigned to a relevant industry, reducing the number of "Other" and "Unknown" values.
+3. **Salary Formatting** – Converted salary ranges to numerical values, removed "k" from the dataset, and calculated the average salary per row.
+4. **Handled Missing Values** – Investigated and reassigned missing industry data where possible.
+5. **Ranked Industry Salaries** – Created a ranking system to determine the top-paying industries.
+6. **Validated Data Integrity** – Cross-checked the cleaned data to ensure accuracy and consistency.
 
-## 📊 Results
-- The **highest-paying industries** were identified based on average salaries.
-- The **most common job titles** in the data analyst field were categorized.
-- A **dashboard** was created to summarize the key insights.
 
-## 🚀 Future Work
-- Expand the dataset to include more job postings.
-- Perform deeper salary trend analysis based on experience levels.
-- Compare job market trends across different geographic locations.
+---
 
-## 💡 Contributors
-**Vanesa Gate** – Data Analyst
+## 📈 Key Metrics & Analysis
+### 🔹 Top 5 Job Titles by Count
+1. **Data Analyst** – 211
+2. **Data Engineer** – 24
+3. **Data Scientist** – 16
+4. **Database Developer** – 4
+5. **Business Analyst** – 4
+
+### 🔹 Top 5 Industries by Average Salary (in $1000s)
+1. **Healthcare** – 116K
+2. **Hospitality** – 96K
+3. **Entertainment** – 96K
+4. **Unknown** – 89K
+5. **Consulting & Professional Services** – 84K
+
+### 🔹 Education Levels of Respondents
+- **Bachelors** – 153
+- **Masters** – 96
+- **High School** – 18
+- **Associates** – 7
+- **PhD** – 4
+- **Unknown** – 7
+
+---
+
+## 📊 Dashboard Insights
+![Dashboard Screenshot](Full%20Data%20Dashboard%201.png)
+
+Key Insights:
+- **Data Analysts dominate** the survey, making up 74% of respondents.
+- **Healthcare professionals earn the highest average salary** (116K USD).
+- **Most respondents have a Bachelor’s degree** (54%).
+- **65% of professionals switched careers** before entering data roles.
+- **70% prefer Python** for data-related tasks.
+- **Remote work is a key factor** in job satisfaction.
+
+---
+
+## 🔮 Next Steps
+- Expand analysis to include more years of data.
+- Compare salaries based on experience levels.
+- Identify trends in data tools and software usage.
+- Develop a Power BI version for more interactivity.
+
+---
+
+## 🛠 Tech Stack Used
+- **Excel** (Pivot Tables, Data Cleaning, Charts)
+- **Power Query** (Data Transformation)
+- **Data Visualization** (Excel Dashboard)
+
+---
+
+## 📌 How to Use
+1. Open the **Excel file** containing the dashboard.
+2. Interact with filters to explore different insights.
+3. Use slicers to analyze specific industries or job roles.
+4. Review the key metrics to understand trends.
+
+---
+
+## 🎯 Conclusions
+This project provides valuable insights into the **data profession landscape**, helping both job seekers and employers understand salary trends, popular industries, and key skills in demand.
+
+📢 **Feedback & Contributions Welcome!** 🚀
+
