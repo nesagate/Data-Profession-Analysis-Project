@@ -1,54 +1,73 @@
-# Data Profession Dashboard 2022
+# Data Analyst Job Market Analysis
 
-## Overview
+## 📚 Table of Contents
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Objectives](#objectives)
+- [Dataset Details](#dataset-details)
+- [Repository Structure](#repository-structure)
+- [Tools Used](#tools-used)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Results](#results)
+- [Future Work](#future-work)
+- [Contributors](#contributors)
 
-This project analyzes data profession trends, focusing on job titles, industries, salary distributions, gender representation, education levels, and remote work preferences. The dataset consists of **285 survey respondents** and provides insights into key aspects of the data profession.
+## 📌 Overview
+This project explores and analyzes data analyst job market trends, including job titles, industries, and salaries. The dataset consists of real-world job postings, which were cleaned and structured to extract meaningful insights.
 
-## Data Cleaning Process
+## 🚨 Problem Statement
+The data analyst job market is diverse, spanning multiple industries with varying salaries and job titles. However, job seekers often struggle to understand salary expectations, industry demand, and career trends. This project aims to clean, analyze, and visualize job market data to provide actionable insights.
 
-The raw dataset required extensive cleaning before analysis. The following steps were performed:
+## 🎯 Objectives
+1. **Clean and Organize Data:**
+   - Standardize job titles
+   - Categorize industries properly
+   - Fix salary ranges and calculate averages
+   
+2. **Analyze Industry and Salary Trends:**
+   - Identify top-paying industries
+   - Determine the most common job titles
+   - Highlight trends in job postings
+   
+3. **Visualize Key Findings:**
+   - Create a dashboard to display insights
+   - Develop interactive charts for industry and salary trends
 
-1. **Standardized Job Titles** – Removed inconsistencies, merged similar titles, and categorized them appropriately.
-2. **Industry Classification** – Ensured all job titles were assigned to a relevant industry, reducing the number of "Other" and "Unknown" values.
-3. **Salary Formatting** – Converted salary ranges to numerical values, removed "k" from the dataset, and calculated the average salary per row.
-4. **Handled Missing Values** – Investigated and reassigned missing industry data where possible.
-5. **Ranked Industry Salaries** – Created a ranking system to determine the top-paying industries.
-6. **Validated Data Integrity** – Cross-checked the cleaned data to ensure accuracy and consistency.
+## 📊 Dataset Details
+| Column Name         | Description                                    |
+|---------------------|------------------------------------------------|
+| Job Title          | Title of the job posting                        |
+| Industry          | Industry category for the job                   |
+| Salary Range      | Salary range provided in the job posting        |
+| Average Salary    | Computed average salary for each job            |
 
-## Key Metrics & Insights
+## 📁 Repository Structure
+```
+Data-Analyst-Job-Market-Analysis/
+├── data/                # Raw and cleaned datasets
+├── documentation/       # Data cleaning steps and methodology
+├── visuals/             # Charts and dashboard images
+└── README.md            # Project documentation
+```
 
-- **Most Common Job Title:** Data Analyst (211 respondents)
-- **Highest-Paying Industry:** Healthcare (\$116K average salary)
-- **Gender Representation:** Almost equal split between male and female respondents.
-- **Preferred Education Level:** Bachelor's degree is the most common (153 respondents).
-- **Remote Work vs Salary:** 51% of respondents prefer a better salary over remote work.
-- **Python Usage:** 70% of respondents reported using Python.
+## 🛠️ Tools Used
+- **Microsoft Excel** – For data cleaning, analysis, and visualization
 
-## Dashboard Design
+## 📖 How to Use This Repository
+1. **Download or clone this repository** to your local machine.
+2. **Explore the dataset** in the `data/` folder.
+3. **Review the documentation** in the `documentation/` folder for data cleaning details.
+4. **Check out the visualizations** in the `visuals/` folder for insights from the data.
 
-The dashboard was built using **Excel**, incorporating:
+## 📊 Results
+- The **highest-paying industries** were identified based on average salaries.
+- The **most common job titles** in the data analyst field were categorized.
+- A **dashboard** was created to summarize the key insights.
 
-- **KPI Cards** to highlight overall statistics.
-- **Bar Charts** for job title count, industry salary comparisons, and education levels.
-- **Radar Chart** to visualize salary vs remote work preferences.
-- **Pie Chart** for gender-based salary distribution.
+## 🚀 Future Work
+- Expand the dataset to include more job postings.
+- Perform deeper salary trend analysis based on experience levels.
+- Compare job market trends across different geographic locations.
 
-## Next Steps
-
-1. Share insights on **GitHub & LinkedIn** to showcase analytical skills.
-2. Use this dataset for deeper statistical analysis with **SQL or Power BI**.
-3. Explore **predictive modeling** on salaries based on job titles and industries.
-
-## Repository Contents
-
-- **Raw Data:** Original dataset (cleaned version included).
-- **Dashboard Screenshot:** Visual representation of insights.
-- **Excel File:** Contains the cleaned data, analysis, and dashboard.
-- **README (this file):** Documentation of the project workflow.
-
----
-
-### Author: Vanny
-
-
-
+## 💡 Contributors
+**Vanesa Gate** – Data Analyst
