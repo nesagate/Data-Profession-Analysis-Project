@@ -1,4 +1,4 @@
-# 📊 Data Profession Dashboard 2022
+# 📊 Data Profession Analysis - 2022
 
 ## 🚀 Overview
 This project analyzes survey data on data professionals, providing insights into job roles, salaries, industries, and education levels. The dashboard visualizes key trends and statistics to help understand the data job market better.
