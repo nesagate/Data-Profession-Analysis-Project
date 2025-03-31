@@ -82,7 +82,8 @@ The dataset required extensive cleaning, including:
 ---
 
 ## 📊 Dashboard Insights
-![Dashboard Screenshot](Full%20Data%20Dashboard%201.png)
+![Dashboard](dashboard.png)
+
 
 Key Insights:
 - **Data Analysts dominate** the survey, making up 74% of respondents.
