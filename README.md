@@ -82,7 +82,7 @@ The dataset required extensive cleaning, including:
 ---
 
 ## 📊 Dashboard Insights
-![Dashboard](Full Data Dashboard.png)
+![Dashboard]([Full Data Dashboard.png](https://github.com/nesagate/Profession-Data-Analysis-Project/blob/main/Full%20Data%20Dashboard.png)
 
 
 Key Insights:
